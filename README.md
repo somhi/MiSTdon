@@ -192,13 +192,15 @@ A cut in the track to +5V should be made if you want maximum compatibility with 
 
 
 
+![max3421](img/max3421.png)
+
 
 
 #### Pmod SD card pinout (Digilent)
 
 
 
-![pmod_sdcard](/home/jordi/FPGAs/Mist/MiSTdon_github/img/pmod_sdcard.png)
+![pmod_sdcard](img/pmod_sdcard.png)
 
 
 
@@ -206,7 +208,7 @@ A cut in the track to +5V should be made if you want maximum compatibility with 
 
 5V and GND from FPGA to the  AT91SAM7S256 board.  
 
-3V3 and GND from Pmod of FPGA to the protoboard which power supply the Pmod SD card and the MAX3421E
+3V3 and GND from FPGA (like PMOD connector) to the protoboard which power supply the Pmod SD card and the MAX3421E
 
 5V from FPGA to the  VBUS pin of MAX3421E board.  
 
