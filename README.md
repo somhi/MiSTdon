@@ -9,6 +9,8 @@ Current status:
 * After a reset it stops working (see notes below) 
 * Passive serial flashing of the FPGA has not been implemented as my FPGA does not have that possibility. I power supply the FPGA and MiST addon, then load the bitstream from the PC though JTAG.
 
+Acknowledgements and thanks for help go to Jepalza, Volton and Manuferhi.
+
 ## Resources
 
 * foroFPGA Jepalza's inspirational post http://www.forofpga.es/viewtopic.php?t=289
@@ -21,6 +23,8 @@ Current status:
   * Flash firmware: [Atmel SAM-BA v2.18](https://www.microchip.com/developmenttools/ProductDetails/SAM-BA In-system Programmer). Follow [instructions](https://github.com/mist-devel/mist-board/wiki/HowToInstallTheFirmware).
     
     Note that the board cannot be programmed when the SD_CD signal is connected to GND.
+  
+* References [folder](references/)
 
 ## Materials
 
@@ -58,7 +62,7 @@ Current status:
 ## Main assembly tips
 
 * Do not use Dupont wires for SPI lines
-* Use SCK terminal resistors in all three SCK lines () 47 Ohm is a good value)
+* Use SCK terminal resistors in all three SCK lines (47 Ohm is a good value)
 * Attention must be paid to Reset signal (read below)
 
 
