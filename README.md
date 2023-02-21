@@ -69,7 +69,9 @@ Acknowledgements and thanks for help go to Jepalza, Volton and Manuferhi.
 
 ## Schematic
 
-Theres is not a consolidated schematic yet. All the related schematics are in the references [folder](references/Schematics/). 
+ [MiSTdon.pdf](MiSTdon.pdf) contains a first draft of the schematic. All the related schematics where I based my design from are in the references [folder](references/Schematics/). 
+
+
 
 Follows notes of what I have wired in my prototype.
 
