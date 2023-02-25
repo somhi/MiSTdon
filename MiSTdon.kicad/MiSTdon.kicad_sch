@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MiSTdon")
+    (date "2023-02-25")
+    (rev "${VERSION}")
+    (comment 2 "2023 @somhi <@somhic at telegram>")
+    (comment 3 "License: CC-BY-SA v4.0")
+  )
+
   (lib_symbols
     (symbol "Connector:DB9_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 13.97 0)

@@ -4,6 +4,8 @@ This is a compendium of all that is needed to build a MiST prototype for any FPG
 
 Current status:
 
+* [PCB design finished](MiSTdon.kicad/), waiting PCBs for testing.
+
 * Working prototype made in a protoboard
 
 * After a reset it stops working (see notes below) 
