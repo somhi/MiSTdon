@@ -176,7 +176,7 @@ Connections:
 
 
 
-Pins 3 and 15 are connected to the Reset button of the AT91SAM7S256 board.  
+Pins 3 and 15 are connected to the Reset button of the AT91SAM7S256 board.  **Please note that the above view on JTAG connector is from the cable point of view, not the connector. Check pin 1 on PCB silkscreen before connecting RST pin**.
 
 In my prototype I connected one of those pins to the RST pin of MAX3421E.
 

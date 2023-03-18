@@ -2155,7 +2155,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0a5c90e-65db-41b4-97fd-5ec36c192591)
   )
-  (text "NRST WIRED EXTERNALLY TO SAM7S\n(JTAG PIN 15)" (at 124.46 86.995 0)
+  (text "NRST WIRED EXTERNALLY TO SAM7S\n(JTAG PIN 3)" (at 124.46 86.995 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f589b3b3-7b67-4267-86ec-c5e7ade69d2b)
   )
@@ -3320,7 +3320,7 @@
     (in_bom yes) (on_board yes)
     (uuid f677df2f-4fe9-4024-86d0-81bc350e2153)
     (property "Reference" "R4" (id 0) (at 260.985 135.89 90))
-    (property "Value" "4k7" (id 1) (at 263.525 135.89 90))
+    (property "Value" "10k" (id 1) (at 263.525 135.89 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 265.303 135.89 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3447,7 +3447,7 @@
       (reference "R3") (unit 1) (value "47") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f677df2f-4fe9-4024-86d0-81bc350e2153"
-      (reference "R4") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3bc46acc-a8f5-4209-b62d-5879414cc872"
       (reference "R5") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
