@@ -4,7 +4,7 @@ This is a compendium of all that is needed to build a MiST prototype for any FPG
 
 Current status:
 
-* [PCB design finished](MiSTdon.kicad/), waiting PCBs for testing.
+* [PCB design finished](MiSTdon.kicad/). Tests are Ok, but original firmware at 24 Mhz is giving bus noise, so **a** **modified firmware at 16 MHz is needed.**
 
 * Working prototype made in a protoboard
 
